@@ -1,0 +1,38 @@
+body {
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 60px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-yes {
+    background-color: hotpink;
+    color: white;
+}
+
+.btn-no {
+    background-color: #eee;
+    color: #333;
+    position: relative;
+}
